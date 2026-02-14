@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+header{
+
+    background-color: #07326a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    gap: 3px;
+}
+nav{
+    margin-left: auto;
+}
+nav .ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+nav .ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    color:#94d3e7
+
+}
+nav .ul li a:hover{
+    color: rgb(148, 74, 74);
+    background :#064089;
+    border-radius: 40%;
+    height: auto;
+
+    text-decoration: none;
+    font-size: 18px;
+    color:#1e7f9c
+ 
+
+
+}
+p{
+    
+    font-family: "Playwrite NZ Basic", cursive;
+    color: white;
+   
+}
+main{
+   
+    padding: 50px;
+}
+.home{
+    display: flex;
+    padding: 50px;
+}
+.about{
+    color: white;
+    flex: 2;
+}
+.profile-pic{
+    flex: 1;
+    box-shadow: 0 4px 50px #749dc8;
+    border-radius: 50%;
+}
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0AC4E0;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#ski {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+      
+.skills-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+      
+.skills-img img {
+    width: 100px;
+    height: 100px;
+}
+      
+.skills-img img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
